@@ -1,0 +1,7 @@
+##### Strategy
+# Scrape, wait, and repeat
+EMAIL_MAIN = "random@gmail.com"
+USERNAME_MAIN = "random"
+PASSWORD = "random"
+
+
