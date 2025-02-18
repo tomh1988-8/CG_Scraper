@@ -1,0 +1,6 @@
+# Ignore everything
+*
+
+# Allow tracking of the notebooks folder and its contents
+!notebooks/
+!notebooks/**
