@@ -44,6 +44,11 @@ def process_year(year):
         print(f"No URLs found for env_suffix '{year}'.")
         return
 
+    # Shuffle the rows in urls_year
+    urls_year = urls_year.sample(frac=1).reset_index(drop=True)
+    print("Shuffled URLs DataFrame head:")
+    print(urls_year.head())
+
     # Ensure the output directory exists
     output_dir = Path(str(here("output")))
     if not output_dir.exists():
