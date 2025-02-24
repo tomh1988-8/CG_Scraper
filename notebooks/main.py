@@ -8,6 +8,6 @@ def is_before_5pm():
 
 
 if __name__ == "__main__":
-    year = "2018"  # Change to the desired year
+    year = "2021"  # Change to the desired year
     while is_before_5pm():
         process_year(year)
