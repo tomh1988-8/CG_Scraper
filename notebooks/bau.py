@@ -4,6 +4,13 @@ from datetime import datetime, timedelta
 import pandas as pd
 from def_process_year import process_year  # Your existing function
 
+# log the scheduler
+file = open(
+    r"C:\Users\TomHun\OneDrive - City & Guilds\Documents\Code\Python\monitor\output\log.txt",
+    "a",
+)
+file.write(f"{datetime.now()} - Scheduler started\n")
+
 
 def get_previous_week_range():
     """
